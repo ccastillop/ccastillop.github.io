@@ -12,6 +12,7 @@
 
 [data.go.kr]: http://data.go.kr
 [gov.kr]: https://www.gov.kr/portal/main
+[ppsko]: https://www.pps.go.kr/eng/jsp/koneps/overview.eng
 
 *[ICT]: Information and Communications Tecnologies
 *[IDB]: Inter-American Development Bank
@@ -28,3 +29,4 @@
 *[TOPIS]: Seoul Transport Operation & Information Service
 *[GIDC]: Government Integrated Data Center
 *[DDoS]: Denial-of-service attack
+*[KONEPS]: Korea online e-procuremente system
