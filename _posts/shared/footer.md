@@ -8,6 +8,10 @@
 [synapsoft]: http://www.synapsoft.co.kr/jsp/main/main.jsp
 [eGovFrameCenter]: http://eng.egovframe.go.kr
 [eGovFrameCenterOpen]: http://open.egovframe.go.kr
+[eungdapso]: http://eungdapso.seoul.go.kr/
+
+[data.go.kr]: http://data.go.kr
+[gov.kr]: https://www.gov.kr/portal/main
 
 *[ICT]: Information and Communications Tecnologies
 *[IDB]: Inter-American Development Bank
@@ -22,3 +26,5 @@
 *[Iaas]: Infrastructure as a Service
 *[SasS]: Software as a Service
 *[TOPIS]: Seoul Transport Operation & Information Service
+*[GIDC]: Government Integrated Data Center
+*[DDoS]: Denial-of-service attack
