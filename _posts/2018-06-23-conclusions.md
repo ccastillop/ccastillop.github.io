@@ -15,8 +15,10 @@ Finalmente, están en un nivel donde vuelcan sus conocimientos hacia otras nacio
 
 ¿Qué puede aprender el Perú de esto?
 - Los planes son buenos, pero deben cumplirse en plazos exactos
-- Los planes deben superar cualquier cambio o tormenta política
+- Los planes deben superar cualquier cambio o tormenta política, y deben ser de largo aliento
 - Debemos orientar nuestras capacidades al cambio constante
+
+Aprovechemos lo aprendido por Corea para la implementación del _e-Governmet_ en el Perú.
 
 
 {% include_relative shared/footer.md %}
