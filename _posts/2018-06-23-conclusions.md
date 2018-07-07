@@ -14,9 +14,19 @@ Sus centros de datos están centralizados y tienen como consignas "Cloud first",
 Finalmente, están en un nivel donde vuelcan sus conocimientos hacia otras naciones, ofreciendo lazos de cooperación entre gobiernos. Tienen el mayor índice de servicios digitales y el primer premio de Naciones Unidas en servicios _e-Governmet_
 
 ¿Qué puede aprender el Perú de esto?
-- Los planes son buenos, pero deben cumplirse en plazos exactos
+- Los planes son buenos, pero deben cumplirse en plazos exactos, revisándose constantemente. 
 - Los planes deben superar cualquier cambio o tormenta política, y deben ser de largo aliento
-- Debemos orientar nuestras capacidades al cambio constante
+- Debemos orientar nuestras capacidades al cambio constante y al uso intensivo de tecnología
+- El desarrollo para móviles debe ser sobre todo Web-mobile, no necesariamente desarrollos nativos
+- Se confía en la autenticación basada en biometría
+- Un centro de datos común y librerías y estándares de desarrollo reutilizables traen a la larga productos y servicios digitales estables, seguros y efectivos en costos. 
+- Los datos abiertos no sólo mejoran el acceso a la información, también traen ecosistemas económicos y sociales que permiten crear negocios y mejorar la toma de decisiones. Los datos son de los cuidadamos
+- Un sistema integrado de indicadores financieros es crucial para el seguimiento de las metas del Estado.
+- Las estadísticas que nacen de los censos son sólo una parte. Existe mucha estadística que debe estar siempre actualizada para evaluar el impacto de las políticas del Estado. 
+- Los celulares son muy fáciles de hackear. El Estado debe tener sus sistemas de información asegurados, en caso necesitemos trabajar a distancia.
+
+
+
 
 Aprovechemos lo aprendido por Corea para la implementación del _e-Governmet_ en el Perú.
 
