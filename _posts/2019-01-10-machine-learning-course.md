@@ -80,7 +80,7 @@ Predecir el costo de una carretera nueva en base a los datos de carreteras ya co
 La solución desarrollada en Matlab, junto con la data de entrenamiento, pueden verse en mi [Github][clase_04]
 
 Clasificación usando Regresión Logística
-____
+------
 
 La Regresión logística es útil para problemas donde la estimación es una clasificación. Por ejemplo, dado ciertas condiciones saber si una persona está sana o afectada. La función logística es ideal para clasificación:
 
