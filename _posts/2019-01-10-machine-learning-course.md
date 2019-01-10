@@ -65,7 +65,72 @@ Un paso adicional antes de pasar a la programación es el Escalamiento o Estanda
 
 $$VariableEscalada = \frac{VariableOrigianl - \mu}{\sigma} $$
 
+### Taller de Ejemplo
+Predecir el costo de una carretera nueva en base a los datos de carreteras ya construidas. Las variables son 
 
+- X1: Altura en mts.
+- X2: Longitud en km.
+- X3: Carriles
+- X4: Número de curvas pronunciadas
+
+La solución desarrollada en Matlab, junto con la data de entrenamiento, pueden verse en mi [Github][clase_04]
+
+Clasificación usando Regresión Logística
+____
+La Regresión logística es útil para problemas donde la estimación es una clasificación. Por ejemplo, dado ciertas condiciones saber si una persona está sana o afectada. La función logística es ideal para clasificación:
+
+$$ h_{\theta}(x) = \frac{1}{ 1 + e^{-\theta^{t}x } } $$
+
+$$ 0 \leq h_{\theta}(x) \leq 1 $$ 
+
+Mientras, la función de costo utiliza el logaritmo para determinar el error. La suma de estos errores debe ser entonces minimizada.
+
+$$ Error = \left\{\begin{matrix}
+ -log(h_{\theta}(x)) & , y = 1 \\ 
+ -log(1 - h_{\theta}(x)) & , y = 0  
+\end{matrix}\right. $$
+
+El algoritmo para minimizar la función de costo es igualmente el algoritmo de gradiente descendiente. Un ejemplo extendido de este procedimiento es la clasificación multiclase. En sí es aplicar el algoritmo OVR (One vs Rest) para ir construyendo múltiples clasificaciones binarias. 
+
+### Taller para detectar números en imágenes
+
+La solución desarrollada en Matlab, junto con la data de entrenamiento, pueden verse en mi [Github][clase_05]
+
+Redes Neuronales
+-----
+Inspirado en la biología, las redes neuronales buscan replicar el funcionamiento de las neuronas encontradas en los seres vivios. El primer modelo matemático de la neurona se llama [Perceptrón][perceptron], que busca obtener una salida binara a partir de varias entradas binárias y una funcion de transferencia lineal, con parámetros o pesos constantes. 
+
+El Perceptrón resultó ser una buena primera aproximación, pero recibió muchas críticas por sus limitaciones. Un segundo modelo fue el perceptrón multicapa, que en sí permite combinaciones de pesos y potencias mucho más complejo. 
+
+El gran problema de estos modelos es cómo entrenamos la red para que prediga un resultado valioso. Se desarrollaron algoritmos tales como el _back propagation_ que, utilizando redes de realimentación, permite que la red aprenda. Estos algoritmos están implementados en _Matlab_ por lo que es relativamente sencillo constuirlos y entrenarlos. 
+
+Sin embargo, un esquema más eficiente de red neuronal es especializar grupos de redes para que aprendan ciertos aspectos o conceptos del problema. Por ejemplo, para detectar si una imagen es un auto o un camión o una bicicleta, una red se especializa en las formas, otra en los contornos, otra en la conexión entre formas o puntos de contacto, entre otros conceptos. La última red combina estos conceptos para obtener resultados mucho más exactos con menos neuronas.
+Esta forma de diseñar redes se denomina [Deep Learning][deep_learning] o Aprendizaje Profundo.
+
+### Taller de redes neuronales
+
+La solución desarrollada en Matlab de una red neuronal para detectar y seleccionar números, junto con la data de entrenamiento, pueden verse en mi [Github][clase_06]
+
+_Chat bot_
+-----
+La última clase fue un taller práctico de cómo crear un _chat bot_ para que responda a preguntas en español sobre información de expedientes. Se utilizó el servicio gratuito de Microsoft llamado [LUIS][luis]
+
+En sí los pasos para crear un _chat bot_ utlilizando los servicios de Microsoft son:
+
+- Crearse una cuenta en Outlook.es y utilizarla para registrarse en [LUIS][luis]
+- Crear los _Intents_, que son las intenciones. Ejemplo: ListarExpedientes
+- Crear _Entidades_ que son las palabras clave relevantes para identificar la itención del usuario. Ejemplo: ciudad, número
+- Cada _Entidad_ puede describirse con una lista de frases que la identifica.
+- Las _Utterances_ son las oraciones que al final identifican una sola intención. Ejemplo: quiero obtener los expedientes...
+
+Con estos datos se crea el _chat bot_ y se entrena en la misma aplicación [LUIS][luis]. Finalmente, se puede consumir el servicio mediante una sencilla [API REst][api_rest] que lo consuma. 
+
+La solución desarrollada en Matlab que consume esta API RESt pueden verse en mi [Github][clase_07]
+
+Conclusiones
+-----
+
+Este curso toca apenas la superficie del mundo del _Machine Learning_. El profesor Eduardo Serrano Campos nos abrió la mente ante la fuerte tendencia actual del _Data Science_ y cómo el mundo cada vez depende más de científicos que puedan procesar e interpretar estos datos, con el fin de obtener información y predicciones valiosas. 
 
 
 {% include_relative shared/mathjax.html %}
