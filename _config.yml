@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Viaje a Corea
+title: Blog
 email: ccastillo.pcm@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  El 16 de junio del 2018 viajé a Seúl, Corea del Sur, 
-  para participar en el E-Government Training Program 
-  y conocer el e-Gov coreano.
+  Temas que debo escribir.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ccastillop
@@ -26,7 +24,8 @@ github_username:  ccastillop
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+remote_theme: broccolini/swiss
 plugins:
   - jekyll-feed
 
