@@ -5,7 +5,7 @@ date:   2019-01-10 14:54:00 -0500
 categories: machine-learning
 ---
 
-En Diciembre de 2018, [INICTEL-UNI][INICTEL] y la [PCM][PCM] organizaron un curso introductorio de 21 horas para los trabajadores de la PCM. El curso buscaba adquirir los fundamentos teóricos y prácticos para el desarrollo de modelos de _Machine Learning_. 
+En Diciembre de 2018, [INICTEL-UNI][INICTEL] y la [PCM][PCM] organizaron un curso introductorio de 21 horas para los trabajadores de la Secretaría de Gobierno Digital (SGD) de la PCM. El curso buscaba adquirir los fundamentos teóricos y prácticos para el desarrollo de modelos de _Machine Learning_. 
 
 A continuación trabajo un informe a modo de resumen del curso.
 
