@@ -28,6 +28,7 @@ _Machine Learning_ es un sub campo de la Inteligencia Articial que se enfoca en 
 
 Regresión lineal con una variable
 -------
+
 El modelo de regresión lineal busca, a partir de datos históricos, obtener la ecuación de una recta que permita estimar o predecir los valores futuros. Por ejemplo, predecir la nota que tendrá un alumno dado su porcentaje de asistencia al curso.
 
 La siguiente ecuación permite obtener la nota $h$ a partir de $x$
@@ -44,11 +45,13 @@ Pero ¿Cómo lograr, utilizando programación, el menor valor?. Se utiliza el _A
 
 Revisión de Álgebra Lineal y Vectorización
 -------
+
 En la siguiente clase se revisan estos conceptos: matrices, vectores tanto de columna como de fila y la nomemclatura de los elementos de la j-ésima columna $A_{:,j}$, o de la j-ésima fila $A_{j,:}$. También se revisó las operaciones con matrices: suma, multiplicación, producto interno, producto externo, multiplicación escalar. 
 
 
 Procesadores y operaciones vectoriales. Uso de Matlab
 -----
+
 Nótese que los algoritmos pueden ser expresados como combinaciones de operaciones vectoriales. Y las instrucciones [SIMD][SIMD] de los microprocesadores están optimizados para estas operaciones. Es más, combinando las operaciones SIMD con la arquitectura multi-nucleo es posible velocidades de procesamiento considerablemente rápidas. 
 
 Este tipo de procesadores suelen encontrarse en los [GPU][GPU], es decir, en los procesadores usados en las tarjetas de video. Por ello, son usadas itensivamente en el procesamiento de _machine_learning_. Finalmente, este tipo de procesadores pueden ser alquilados en la nube. 
@@ -59,6 +62,7 @@ Finalmente, los ejercicios utilizando Matlab pueden verse en mi [Github][clase_0
 
 Regresión lineal con múltiples variables
 -----
+
 Llega el momento de aplicar el algoritmo para hacer regresión lineal de múltiples variables: $$h(x) = \theta_0 + \theta_1 x_1 + \theta_2 x_2+ ... + \theta_n x_n$$. Entonces, aplicando la función de costo antes señalada, y acondicionando la ecuación a $$h(x) = \theta_0 x_0 + \theta_1 x_1 + \theta_2 x_2+ ... + \theta_n x_n$$ con $x_0 = 1$ se puede usar cálculo vectorial optimizado para programación. 
 
 Un paso adicional antes de pasar a la programación es el Escalamiento o Estandarización de Variables, que busca optimizar el algoritmo de gradiente descendente para buscar el valor óptimo sin que sufra. El escalamiento se realiza calculando el valor promedio $\mu$ y la desviación estándar $\sigma$ de los datos:
@@ -77,6 +81,7 @@ La solución desarrollada en Matlab, junto con la data de entrenamiento, pueden 
 
 Clasificación usando Regresión Logística
 ____
+
 La Regresión logística es útil para problemas donde la estimación es una clasificación. Por ejemplo, dado ciertas condiciones saber si una persona está sana o afectada. La función logística es ideal para clasificación:
 
 $$ h_{\theta}(x) = \frac{1}{ 1 + e^{-\theta^{t}x } } $$
@@ -98,6 +103,7 @@ La solución desarrollada en Matlab, junto con la data de entrenamiento, pueden 
 
 Redes Neuronales
 -----
+
 Inspirado en la biología, las redes neuronales buscan replicar el funcionamiento de las neuronas encontradas en los seres vivios. El primer modelo matemático de la neurona se llama [Perceptrón][perceptron], que busca obtener una salida binara a partir de varias entradas binárias y una funcion de transferencia lineal, con parámetros o pesos constantes. 
 
 El Perceptrón resultó ser una buena primera aproximación, pero recibió muchas críticas por sus limitaciones. Un segundo modelo fue el perceptrón multicapa, que en sí permite combinaciones de pesos y potencias mucho más complejo. 
@@ -113,6 +119,7 @@ La solución desarrollada en Matlab de una red neuronal para detectar y seleccio
 
 _Chat bot_
 -----
+
 La última clase fue un taller práctico de cómo crear un _chat bot_ para que responda a preguntas en español sobre información de expedientes. Se utilizó el servicio gratuito de Microsoft llamado [LUIS][luis]
 
 En sí los pasos para crear un _chat bot_ utlilizando los servicios de Microsoft son:
