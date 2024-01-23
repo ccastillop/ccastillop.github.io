@@ -56,7 +56,7 @@ Nótese que los algoritmos pueden ser expresados como combinaciones de operacion
 
 Este tipo de procesadores suelen encontrarse en los [GPU][GPU], es decir, en los procesadores usados en las tarjetas de video. Por ello, son usadas itensivamente en el procesamiento de _machine_learning_. Finalmente, este tipo de procesadores pueden ser alquilados en la nube. 
 
-Resulta valioso ejercitar álgebra lineal utilizando _Matlab_, el software _de facto_ para trabajos científicios. 
+Resulta valioso ejercitar álgebra lineal utilizando _Matlab_, el software _de facto_ para trabajos científicos. 
 
 Finalmente, los ejercicios utilizando Matlab pueden verse en mi [Github][clase_03]
 
